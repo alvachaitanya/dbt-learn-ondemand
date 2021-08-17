@@ -29,7 +29,7 @@ sources:
       - name: payment
         description: Raw payment data.
         columns:
-          - name: payment_id
+          - name: id
             description: Primary key for payments.
             tests:
               - unique
